@@ -1,0 +1,15 @@
+platform :ios, '10.2'
+
+project 'DP2_4.xcodeproj'
+
+target 'DP2_4' do
+
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+  'Core',
+  'RCTImage',
+  'RCTNetwork',
+  'RCTText',
+  'RCTWebSocket',
+]
+
+end
